@@ -1,6 +1,8 @@
 ﻿using AuctionService.Data;
 using AuctionService.DTOs;
+using AuctionService.Entities;
 using AutoMapper;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -44,4 +46,35 @@ public class AuctionController : ControllerBase
 
 
     }
+    [HttpPost]
+    public async Task<ActionResult<AuctionDto>> CreateAuction(CreateAuctionDto auctionDto)
+    {
+        var auction = _mapper.Map<Auction>(auctionDto);
+        _context.Auctions.Add(auction);
+        var result = await _context.SaveChangesAsync() > 0;
+        if (!result) BadRequest("Could not save changes to database");
+        return CreatedAtAction(nameof(GetAuctionById), new { id = auction.Id }, _mapper.Map<AuctionDto>(auction));
+
+    }
+
+    [HttpPut("id")]
+    public async Task<ActionResult> UpdateAuction(Guid id, UpdateAuctionDto updateauctionDto)
+    {
+        var auction = await _context.Auctions
+            .Include(x => x.Item)
+            .FirstOrDefaultAsync(x => x.Id == id);
+        if (auction == null) return NotFound();
+
+        auction.Item.Make = updateauctionDto.Make ?? auction.Item.Make;
+        auction.Item.Model = updateauctionDto.Model ?? auction.Item.Model;
+        auction.Item.Year = updateauctionDto.Year ?? auction.Item.Year;
+        auction.Item.Mileage = updateauctionDto.Mileage ?? auction.Item.Mileage;
+        auction.Item.Color = updateauctionDto.Color ?? auction.Item.Color;
+
+        var result = await _context.SaveChangesAsync() > 0;
+        if (result) return Ok();
+        return BadRequest("Could not save changes to database");
+
+    }
+
 }
