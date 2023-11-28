@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\umits\\OneDrive\\Masaüstü\\Carsties\\src\\AuctionService\\AuctionService.csproj": {}
+    "E:\\Carsties\\src\\auctionservice\\AuctionService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\umits\\OneDrive\\Masaüstü\\Carsties\\src\\AuctionService\\AuctionService.csproj": {
+    "E:\\Carsties\\src\\auctionservice\\AuctionService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\umits\\OneDrive\\Masaüstü\\Carsties\\src\\AuctionService\\AuctionService.csproj",
+        "projectUniqueName": "E:\\Carsties\\src\\auctionservice\\AuctionService.csproj",
         "projectName": "AuctionService",
-        "projectPath": "C:\\Users\\umits\\OneDrive\\Masaüstü\\Carsties\\src\\AuctionService\\AuctionService.csproj",
+        "projectPath": "E:\\Carsties\\src\\auctionservice\\AuctionService.csproj",
         "packagesPath": "C:\\Users\\umits\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\umits\\OneDrive\\Masaüstü\\Carsties\\src\\AuctionService\\obj\\",
+        "outputPath": "E:\\Carsties\\src\\auctionservice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\umits\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,22 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
