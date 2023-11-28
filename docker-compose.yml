@@ -12,5 +12,16 @@ services:
     volumes:
       - pgdata:/var/lib/postgresql/data
 
+  mongodb:
+    image: mongo:7.0.3
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: mongoadmin
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodata:/var/lib/mongodb/data
+
 volumes:
   pgdata:
+  mongodata:
