@@ -40,3 +40,4 @@ E:\Carsties\src\searchservice\obj\Debug\net8.0\refint\SearchService.dll
 E:\Carsties\src\searchservice\obj\Debug\net8.0\SearchService.pdb
 E:\Carsties\src\searchservice\obj\Debug\net8.0\SearchService.genruntimeconfig.cache
 E:\Carsties\src\searchservice\obj\Debug\net8.0\ref\SearchService.dll
+E:\Carsties\src\searchservice\bin\Debug\net8.0\Data\auctions.json
