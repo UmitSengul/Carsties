@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Carsties\\src\\searchservice\\SearchService.csproj": {}
+    "E:\\Carsties\\src\\SearchService\\SearchService.csproj": {}
   },
   "projects": {
-    "E:\\Carsties\\src\\searchservice\\SearchService.csproj": {
+    "E:\\Carsties\\src\\SearchService\\SearchService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Carsties\\src\\searchservice\\SearchService.csproj",
+        "projectUniqueName": "E:\\Carsties\\src\\SearchService\\SearchService.csproj",
         "projectName": "SearchService",
-        "projectPath": "E:\\Carsties\\src\\searchservice\\SearchService.csproj",
+        "projectPath": "E:\\Carsties\\src\\SearchService\\SearchService.csproj",
         "packagesPath": "C:\\Users\\umits\\.nuget\\packages\\",
-        "outputPath": "E:\\Carsties\\src\\searchservice\\obj\\",
+        "outputPath": "E:\\Carsties\\src\\SearchService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\umits\\AppData\\Roaming\\NuGet\\NuGet.Config",

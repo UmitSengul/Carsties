@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YedJd9d5ZKAFktSp/kRBQGsZUTLDm64AuPb6jaPcfYZT5hgUxRPJe5JfTilmMJSHDqpjVADSmh8x1/Q0K4rPew==",
+  "dgSpecHash": "idXYFDkGqtR3AVDGR3IPSB1NquVMmPIp1KhV2e/WyzWbBlRVf34smvOueNpjCg7/EQP4YOULZYRhHpKExi3I/A==",
   "success": true,
-  "projectFilePath": "E:\\Carsties\\src\\auctionservice\\AuctionService.csproj",
+  "projectFilePath": "E:\\Carsties\\src\\AuctionService\\AuctionService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\umits\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\umits\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

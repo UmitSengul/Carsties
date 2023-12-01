@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HALb37u6uUIgLSm7Q5PGBot54XKr3pBoOCJB+P/MujFXkEackk19LGR5KQ6vVKQuRTjPbkDbH8mttzZASXZmmA==",
+  "dgSpecHash": "8KVHSx9HgfZ7Trf+cntTUjFYOufOPM6TOwA/dGb7z1zyci7hK+LoJjUzGnYZGW/o4USQUUyjw192uiKQxd2p+g==",
   "success": true,
-  "projectFilePath": "E:\\Carsties\\src\\searchservice\\SearchService.csproj",
+  "projectFilePath": "E:\\Carsties\\src\\SearchService\\SearchService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\umits\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\umits\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
