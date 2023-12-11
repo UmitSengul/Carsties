@@ -6,6 +6,8 @@ services:
     ports:
       - 5432:5432
     environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgrespassword
     volumes:
       - /var/lib/postgresql/data
@@ -14,7 +16,7 @@ services:
     image: mongo
     environment:
       MONGO_INITDB_ROOT_USERNAME: admin
-      MONGO_INITDB_ROOT_PASSWORD: mongopassword
+      MONGO_INITDB_ROOT_PASSWORD: mongoadmin
     ports:
       - 27017:27017
     volumes:

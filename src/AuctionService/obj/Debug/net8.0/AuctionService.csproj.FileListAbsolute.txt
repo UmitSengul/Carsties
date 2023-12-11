@@ -208,3 +208,4 @@ E:\Carsties\src\AuctionService\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dl
 E:\Carsties\src\AuctionService\bin\Debug\net8.0\RabbitMQ.Client.dll
 E:\Carsties\src\AuctionService\bin\Debug\net8.0\Contracts.dll
 E:\Carsties\src\AuctionService\bin\Debug\net8.0\Contracts.pdb
+E:\Carsties\src\AuctionService\bin\Debug\net8.0\MassTransit.EntityFrameworkCoreIntegration.dll

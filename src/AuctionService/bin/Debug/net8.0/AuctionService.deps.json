@@ -10,6 +10,7 @@
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "Contracts": "1.0.0",
+          "MassTransit.EntityFrameworkCore": "8.1.2",
           "MassTransit.RabbitMQ": "8.1.2",
           "Microsoft.EntityFrameworkCore.Design": "8.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.0"
@@ -73,6 +74,18 @@
       "MassTransit.Abstractions/8.1.2": {
         "runtime": {
           "lib/net7.0/MassTransit.Abstractions.dll": {
+            "assemblyVersion": "8.1.2.0",
+            "fileVersion": "8.1.2.0"
+          }
+        }
+      },
+      "MassTransit.EntityFrameworkCore/8.1.2": {
+        "dependencies": {
+          "MassTransit": "8.1.2",
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/MassTransit.EntityFrameworkCoreIntegration.dll": {
             "assemblyVersion": "8.1.2.0",
             "fileVersion": "8.1.2.0"
           }
@@ -638,6 +651,13 @@
       "sha512": "sha512-121mBA29VOIKtdNp+FyvNZj3BxUkHKLoGbGp3PwrUVJFwDupN3BOxRga1IbOSdNswicPXWt0k94QNcqEHDE0Yw==",
       "path": "masstransit.abstractions/8.1.2",
       "hashPath": "masstransit.abstractions.8.1.2.nupkg.sha512"
+    },
+    "MassTransit.EntityFrameworkCore/8.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N9C2R3Aom+AXfWalNRzQHsjT23XuSs5SU96VPo4GvWqqrF02uN7ppdpqxGn/vBccvIjwSiQlCEaREhLolnf45w==",
+      "path": "masstransit.entityframeworkcore/8.1.2",
+      "hashPath": "masstransit.entityframeworkcore.8.1.2.nupkg.sha512"
     },
     "MassTransit.RabbitMQ/8.1.2": {
       "type": "package",
