@@ -6,22 +6,23 @@ services:
     ports:
       - 5432:5432
     environment:
-      POSTGRES_DB: auctions
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
+      POSTGRES_PASSWORD: postgrespassword
     volumes:
-      - pgdata:/var/lib/postgresql/data
+      - /var/lib/postgresql/data
 
   mongodb:
-    image: mongo:7.0.3
+    image: mongo
     environment:
       MONGO_INITDB_ROOT_USERNAME: admin
-      MONGO_INITDB_ROOT_PASSWORD: mongoadmin
+      MONGO_INITDB_ROOT_PASSWORD: mongopassword
     ports:
       - 27017:27017
     volumes:
-      - mongodata:/var/lib/mongodb/data
+      - /var/lib/mongodb/data
 
-volumes:
-  pgdata:
-  mongodata:
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    ports:
+      - 5672:5672
+      - 15672:15672
+      
