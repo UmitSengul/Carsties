@@ -7,7 +7,7 @@ namespace SearchService;
 
 public class DbInitializer
 {
-    public static async Task Initdb(WebApplication app)
+    public static async Task InitDb(WebApplication app)
     {
         await DB.InitAsync("SearchDb", MongoClientSettings.FromConnectionString(
             app.Configuration.GetConnectionString("MongoDbConnection")));

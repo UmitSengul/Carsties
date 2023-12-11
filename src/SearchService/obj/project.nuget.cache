@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "CAKM4XBAs/VrZRzvaU3atEQVbLXzKtYJmMSveYR6T1dy913Ohz3By0WRZr0HJYmKRgJrue6RynJI0p1zbQ8gFA==",
+  "dgSpecHash": "qwu4uQfMg4J2B3SsXW4oKaz52cHWRMIZgP9imjHTla1gvRbTcPiHBsjlBD+Rt0qDFj4Tn/tjuCfU30yz9vg9xQ==",
   "success": true,
   "projectFilePath": "E:\\Carsties\\src\\SearchService\\SearchService.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\umits\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\umits\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\umits\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\umits\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "C:\\Users\\umits\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",

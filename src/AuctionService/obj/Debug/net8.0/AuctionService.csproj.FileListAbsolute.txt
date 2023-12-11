@@ -202,3 +202,9 @@ E:\Carsties\src\auctionservice\obj\Debug\net8.0\refint\AuctionService.dll
 E:\Carsties\src\auctionservice\obj\Debug\net8.0\AuctionService.pdb
 E:\Carsties\src\auctionservice\obj\Debug\net8.0\AuctionService.genruntimeconfig.cache
 E:\Carsties\src\auctionservice\obj\Debug\net8.0\ref\AuctionService.dll
+E:\Carsties\src\AuctionService\bin\Debug\net8.0\MassTransit.dll
+E:\Carsties\src\AuctionService\bin\Debug\net8.0\MassTransit.Abstractions.dll
+E:\Carsties\src\AuctionService\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
+E:\Carsties\src\AuctionService\bin\Debug\net8.0\RabbitMQ.Client.dll
+E:\Carsties\src\AuctionService\bin\Debug\net8.0\Contracts.dll
+E:\Carsties\src\AuctionService\bin\Debug\net8.0\Contracts.pdb

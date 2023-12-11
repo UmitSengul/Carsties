@@ -41,3 +41,14 @@ E:\Carsties\src\searchservice\obj\Debug\net8.0\SearchService.pdb
 E:\Carsties\src\searchservice\obj\Debug\net8.0\SearchService.genruntimeconfig.cache
 E:\Carsties\src\searchservice\obj\Debug\net8.0\ref\SearchService.dll
 E:\Carsties\src\searchservice\bin\Debug\net8.0\Data\auctions.json
+E:\Carsties\src\SearchService\bin\Debug\net8.0\AutoMapper.dll
+E:\Carsties\src\SearchService\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\Carsties\src\SearchService\bin\Debug\net8.0\MassTransit.dll
+E:\Carsties\src\SearchService\bin\Debug\net8.0\MassTransit.Abstractions.dll
+E:\Carsties\src\SearchService\bin\Debug\net8.0\MassTransit.RabbitMqTransport.dll
+E:\Carsties\src\SearchService\bin\Debug\net8.0\Microsoft.Extensions.Http.Polly.dll
+E:\Carsties\src\SearchService\bin\Debug\net8.0\Polly.dll
+E:\Carsties\src\SearchService\bin\Debug\net8.0\Polly.Extensions.Http.dll
+E:\Carsties\src\SearchService\bin\Debug\net8.0\RabbitMQ.Client.dll
+E:\Carsties\src\SearchService\bin\Debug\net8.0\Contracts.dll
+E:\Carsties\src\SearchService\bin\Debug\net8.0\Contracts.pdb
