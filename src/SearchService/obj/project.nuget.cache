@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qwu4uQfMg4J2B3SsXW4oKaz52cHWRMIZgP9imjHTla1gvRbTcPiHBsjlBD+Rt0qDFj4Tn/tjuCfU30yz9vg9xQ==",
+  "dgSpecHash": "HsQHJ0cAxKZS+J38t6KKlT1fmFIqvjP2wo9uSj9CD2bADeQ/eoAPgolWkka0sgMcrwmq79eP2K+gqOPhkoNZ7g==",
   "success": true,
   "projectFilePath": "E:\\Carsties\\src\\SearchService\\SearchService.csproj",
   "expectedPackageFiles": [
@@ -33,10 +33,10 @@
     "C:\\Users\\umits\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\umits\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\umits\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
-    "C:\\Users\\umits\\.nuget\\packages\\mongodb.bson\\2.21.0\\mongodb.bson.2.21.0.nupkg.sha512",
-    "C:\\Users\\umits\\.nuget\\packages\\mongodb.driver\\2.21.0\\mongodb.driver.2.21.0.nupkg.sha512",
-    "C:\\Users\\umits\\.nuget\\packages\\mongodb.driver.core\\2.21.0\\mongodb.driver.core.2.21.0.nupkg.sha512",
-    "C:\\Users\\umits\\.nuget\\packages\\mongodb.entities\\22.1.0\\mongodb.entities.22.1.0.nupkg.sha512",
+    "C:\\Users\\umits\\.nuget\\packages\\mongodb.bson\\2.22.0\\mongodb.bson.2.22.0.nupkg.sha512",
+    "C:\\Users\\umits\\.nuget\\packages\\mongodb.driver\\2.22.0\\mongodb.driver.2.22.0.nupkg.sha512",
+    "C:\\Users\\umits\\.nuget\\packages\\mongodb.driver.core\\2.22.0\\mongodb.driver.core.2.22.0.nupkg.sha512",
+    "C:\\Users\\umits\\.nuget\\packages\\mongodb.entities\\23.0.0\\mongodb.entities.23.0.0.nupkg.sha512",
     "C:\\Users\\umits\\.nuget\\packages\\mongodb.libmongocrypt\\1.8.0\\mongodb.libmongocrypt.1.8.0.nupkg.sha512",
     "C:\\Users\\umits\\.nuget\\packages\\polly\\7.2.4\\polly.7.2.4.nupkg.sha512",
     "C:\\Users\\umits\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512",
