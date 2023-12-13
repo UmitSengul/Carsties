@@ -9,7 +9,6 @@ using Serilog;
 namespace IdentityService;
 
 public class SeedData
-
 {
     public static void EnsureSeedData(WebApplication app)
     {

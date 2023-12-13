@@ -29,26 +29,28 @@ internal static class HostingExtensions
                 options.Events.RaiseSuccessEvents = true;
 
                 // see https://docs.duendesoftware.com/identityserver/v6/fundamentals/resources/
-                //options.EmitStaticAudienceClaim = true;
+                // options.EmitStaticAudienceClaim = true;
             })
             .AddInMemoryIdentityResources(Config.IdentityResources)
             .AddInMemoryApiScopes(Config.ApiScopes)
             .AddInMemoryClients(Config.Clients)
-            .AddAspNetIdentity<ApplicationUser>();
-        builder.Services.ConfigureApplicationCookie(options =>
+            .AddAspNetIdentity<ApplicationUser>()
+            .AddProfileService<CustomProfileService>();
+
+        builder.Services.ConfigureApplicationCookie(options => 
         {
             options.Cookie.SameSite = SameSiteMode.Lax;
         });
-
+        
         builder.Services.AddAuthentication();
 
         return builder.Build();
     }
-
+    
     public static WebApplication ConfigurePipeline(this WebApplication app)
-    {
+    { 
         app.UseSerilogRequestLogging();
-
+    
         if (app.Environment.IsDevelopment())
         {
             app.UseDeveloperExceptionPage();
@@ -58,7 +60,7 @@ internal static class HostingExtensions
         app.UseRouting();
         app.UseIdentityServer();
         app.UseAuthorization();
-
+        
         app.MapRazorPages()
             .RequireAuthorization();
 

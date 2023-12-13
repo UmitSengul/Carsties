@@ -9,111 +9,115 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = IdentityService
 build_property.RootNamespace = IdentityService
-build_property.ProjectDir = E:\Carsties\src\identityservice\
+build_property.ProjectDir = E:\Carsties\src\IdentityService\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\Carsties\src\identityservice
+build_property.MSBuildProjectDirectory = E:\Carsties\src\IdentityService
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/Carsties/src/identityservice/Pages/Account/AccessDenied.cshtml]
+[E:/Carsties/src/IdentityService/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Carsties/src/identityservice/Pages/Account/Login/Index.cshtml]
+[E:/Carsties/src/IdentityService/Pages/Account/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dpblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Carsties/src/identityservice/Pages/Account/Logout/Index.cshtml]
+[E:/Carsties/src/IdentityService/Pages/Account/Logout/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Carsties/src/identityservice/Pages/Account/Logout/LoggedOut.cshtml]
+[E:/Carsties/src/IdentityService/Pages/Account/Logout/LoggedOut.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxMb2dvdXRcTG9nZ2VkT3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Carsties/src/identityservice/Pages/Ciba/All.cshtml]
+[E:/Carsties/src/IdentityService/Pages/Account/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudFxSZWdpc3RlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Carsties/src/IdentityService/Pages/Ciba/All.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2liYVxBbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Carsties/src/identityservice/Pages/Ciba/Consent.cshtml]
+[E:/Carsties/src/IdentityService/Pages/Ciba/Consent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2liYVxDb25zZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Carsties/src/identityservice/Pages/Ciba/Index.cshtml]
+[E:/Carsties/src/IdentityService/Pages/Ciba/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2liYVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Carsties/src/identityservice/Pages/Ciba/_ScopeListItem.cshtml]
+[E:/Carsties/src/IdentityService/Pages/Ciba/_ScopeListItem.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2liYVxfU2NvcGVMaXN0SXRlbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Carsties/src/identityservice/Pages/Consent/Index.cshtml]
+[E:/Carsties/src/IdentityService/Pages/Consent/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc2VudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Carsties/src/identityservice/Pages/Consent/_ScopeListItem.cshtml]
+[E:/Carsties/src/IdentityService/Pages/Consent/_ScopeListItem.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc2VudFxfU2NvcGVMaXN0SXRlbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Carsties/src/identityservice/Pages/Device/Index.cshtml]
+[E:/Carsties/src/IdentityService/Pages/Device/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV2aWNlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Carsties/src/identityservice/Pages/Device/Success.cshtml]
+[E:/Carsties/src/IdentityService/Pages/Device/Success.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV2aWNlXFN1Y2Nlc3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Carsties/src/identityservice/Pages/Device/_ScopeListItem.cshtml]
+[E:/Carsties/src/IdentityService/Pages/Device/_ScopeListItem.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV2aWNlXF9TY29wZUxpc3RJdGVtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Carsties/src/identityservice/Pages/Diagnostics/Index.cshtml]
+[E:/Carsties/src/IdentityService/Pages/Diagnostics/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlhZ25vc3RpY3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Carsties/src/identityservice/Pages/ExternalLogin/Callback.cshtml]
+[E:/Carsties/src/IdentityService/Pages/ExternalLogin/Callback.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXh0ZXJuYWxMb2dpblxDYWxsYmFjay5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Carsties/src/identityservice/Pages/ExternalLogin/Challenge.cshtml]
+[E:/Carsties/src/IdentityService/Pages/ExternalLogin/Challenge.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXh0ZXJuYWxMb2dpblxDaGFsbGVuZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Carsties/src/identityservice/Pages/Grants/Index.cshtml]
+[E:/Carsties/src/IdentityService/Pages/Grants/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR3JhbnRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Carsties/src/identityservice/Pages/Home/Error/Index.cshtml]
+[E:/Carsties/src/IdentityService/Pages/Home/Error/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxFcnJvclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Carsties/src/identityservice/Pages/Index.cshtml]
+[E:/Carsties/src/IdentityService/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Carsties/src/identityservice/Pages/Redirect/Index.cshtml]
+[E:/Carsties/src/IdentityService/Pages/Redirect/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVkaXJlY3RcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Carsties/src/identityservice/Pages/Shared/_Layout.cshtml]
+[E:/Carsties/src/IdentityService/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Carsties/src/identityservice/Pages/Shared/_Nav.cshtml]
+[E:/Carsties/src/IdentityService/Pages/Shared/_Nav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9OYXYuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Carsties/src/identityservice/Pages/Shared/_ValidationSummary.cshtml]
+[E:/Carsties/src/IdentityService/Pages/Shared/_ValidationSummary.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU3VtbWFyeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Carsties/src/identityservice/Pages/_ViewImports.cshtml]
+[E:/Carsties/src/IdentityService/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Carsties/src/identityservice/Pages/_ViewStart.cshtml]
+[E:/Carsties/src/IdentityService/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
