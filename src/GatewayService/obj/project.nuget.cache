@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N0Os1rNdU3KKJkFth1GOoj8be5eDswVhpXT/mbbnsEJwiYH69uk557U6kUX/gfL2bGPTxfoB0TewChFOpeYuiQ==",
+  "dgSpecHash": "V4j/0bw933axi74OvllSq+WL5HQTZ7L78L8Yn6zUwKrEGGyhDoQrliARmq+KOfJ6ur+pZmHGWUZRqE+LpzNDig==",
   "success": true,
-  "projectFilePath": "E:\\Carsties\\src\\gatewayservice\\GatewayService.csproj",
+  "projectFilePath": "E:\\Carsties\\src\\GatewayService\\GatewayService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\umits\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.0\\microsoft.aspnetcore.authentication.jwtbearer.8.0.0.nupkg.sha512",
     "C:\\Users\\umits\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.0.3\\microsoft.identitymodel.abstractions.7.0.3.nupkg.sha512",

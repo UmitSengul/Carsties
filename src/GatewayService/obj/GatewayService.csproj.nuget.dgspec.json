@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Carsties\\src\\gatewayservice\\GatewayService.csproj": {}
+    "E:\\Carsties\\src\\GatewayService\\GatewayService.csproj": {}
   },
   "projects": {
-    "E:\\Carsties\\src\\gatewayservice\\GatewayService.csproj": {
+    "E:\\Carsties\\src\\GatewayService\\GatewayService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Carsties\\src\\gatewayservice\\GatewayService.csproj",
+        "projectUniqueName": "E:\\Carsties\\src\\GatewayService\\GatewayService.csproj",
         "projectName": "GatewayService",
-        "projectPath": "E:\\Carsties\\src\\gatewayservice\\GatewayService.csproj",
+        "projectPath": "E:\\Carsties\\src\\GatewayService\\GatewayService.csproj",
         "packagesPath": "C:\\Users\\umits\\.nuget\\packages\\",
-        "outputPath": "E:\\Carsties\\src\\gatewayservice\\obj\\",
+        "outputPath": "E:\\Carsties\\src\\GatewayService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\umits\\AppData\\Roaming\\NuGet\\NuGet.Config",
