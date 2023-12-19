@@ -29,11 +29,12 @@ builder.Services.AddMassTransit(x =>
 
     x.UsingRabbitMq((context, cfg) => 
     {
-     cfg.Host(builder.Configuration["RabbitMq:Host"], "/", host =>
+    cfg.Host(builder.Configuration["RabbitMq:Host"], "/", host =>
     {
         host.Username(builder.Configuration.GetValue("RabbitMq:Username", "guest"));
         host.Password(builder.Configuration.GetValue("RabbitMq:Password", "guest"));
     });
+
         cfg.ConfigureEndpoints(context);
     });
 });
@@ -45,6 +46,8 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         options.TokenValidationParameters.ValidateAudience = false;
         options.TokenValidationParameters.NameClaimType = "username";
     });
+builder.Services.AddScoped<IAuctionRepository, AuctionRepository>();
+builder.Services.AddGrpc();
 
 var app = builder.Build();
 
@@ -53,6 +56,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+app.MapGrpcService<GrpcAuctionService>();
 
 try
 {
@@ -64,3 +68,5 @@ catch (Exception e)
 }
 
 app.Run();
+
+public partial class Program {}
